@@ -24,6 +24,7 @@ def topKFrequent(nums: List[int], k: int) -> List[int]:
 # Time complexity: O(n)
 # Space complexity: O(n)
 
+nums = [1,1,1,2,2,3]
 k = 2
 print(topKFrequent(nums, k))  # [1, 2]
 
